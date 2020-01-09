@@ -1,0 +1,109 @@
+#slide {
+
+    width: 512px;
+    height: 512px;
+    border: 3px solid #c0c0c0;
+    margin: 0 auto;
+    position: relative;
+    font-family: sans-serif;
+    overflow: hidden;
+
+}
+
+.slide-single {
+
+    width: 512px;
+    height: 512px;
+    position: absolute;
+    /* transition: all ease 1s; */
+    left: 0;
+    top: 0;
+    z-index: 1;
+    transition-duration: 1000ms;  
+    
+}
+
+.arrow {
+
+    width: 30px;
+    height: 60px;
+    position: absolute;
+    top: 226px;
+    background-color: #90979A;
+    z-index: 2;
+    text-align: center;
+    font-size: 50px;
+    cursor: pointer; 
+    transition-duration: 500ms;
+    opacity: 0;
+        
+}
+
+.arrow:hover {
+
+    background-color: #006699;
+    transition-duration: 500ms;
+
+}
+
+.left {
+
+    left: 3px;
+
+}
+
+.right {
+
+    right: 3px;
+
+}
+
+.bottom_circles {
+
+    position: absolute;
+    bottom: 3px;
+    margin-left: 156px;
+    width: 200px;
+    height: 20px;
+    z-index: 2;
+    opacity: 0;
+    transition-duration: 500ms;
+    
+}
+
+.circle {
+
+    border: 2px solid black;
+    background-color: black;
+    margin-left: 23px;
+    width: 5px;
+    height: 5px;
+    border-radius: 100%;
+    display: inline-block;
+    cursor: pointer;
+        
+}
+
+.svg { 
+
+    position: absolute;
+    z-index: 2;
+    right: 0;    
+
+}
+
+.progress-ring_circle {
+
+    transform-origin: center;
+    transform: rotate(-90deg);
+    transition: stroke-dashoffset 0.3s;
+    
+}
+
+
+
+
+
+
+
+
